@@ -48,7 +48,7 @@ Assigns a class label to every pixel. Used for general categorization (e.g., lan
 Identifies and segments distinct objects within the same category.
 
 **Applications**: Tumor detection, robotics, autonomous vehicles.
-![Image Description](https://github.com/yourusername/yourrepo/raw/main/images/semg1.jpg)
+
 
 
 
