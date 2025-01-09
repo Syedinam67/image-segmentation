@@ -76,6 +76,7 @@ Performs image segmentation with 3 clusters.
 Similar to the previous method but segments the image into 2 clusters.
 
 #### Segmentation for k = 2
+![image](https://github.com/Syedinam67/image-segmentation/blob/97bd8d5211742ec398541791efa423cb28d8e773/for%20k%3D2.png)
 
 
 **~ Applications**: Binary segmentation (e.g., separating sky from ground).
