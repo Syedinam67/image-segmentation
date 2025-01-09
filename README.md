@@ -61,3 +61,48 @@ Satellite Image Analysis: Classify land cover (e.g., water, urban areas).
 Object Tracking in Videos: Separate foreground and background in video sequences.
 Image Compression: Simplify images by segmenting into regions and reducing data.
 
+### 7. Practical Code Examples
+#### 1. Basic K-means Clustering (k=3)
+Performs image segmentation with 3 clusters.
+
+#### Segmentation for k = 3
+
+
+**~ Process**: Reads and reshapes the image, applies K-means clustering.
+**~ Applications**: Segmentation of foreground and background.
+
+#### 2. Basic K-means Clustering (k=2)
+Similar to the previous method but segments the image into 2 clusters.
+
+#### Segmentation for k = 2
+
+
+**~ Applications**: Binary segmentation (e.g., separating sky from ground).
+
+#### 3. Elbow Method for Optimal k
+The Elbow Method is used to determine the optimal number of clusters (k) for segmentation.
+
+
+
+#### Process:
+
+**1.** The sum of squared distances (SSD) between points and their assigned cluster centroid is calculated for different values of **k**.
+**2.** As **k** increases, SSD typically decreases. However, at some point, the improvement in SSD slows down, forming an "elbow" in the graph.
+**3.** The optimal **k** is typically chosen at the point where the SSD curve forms a sharp bend (the "elbow").
+
+### Steps in the Elbow Method:
+
+**1.** Start with a small value of **k** (e.g., k=1).
+**2.** Calculate the SSD (or Within-Cluster Sum of Squares).
+**3.** Increase **k** and repeat the SSD calculation.
+**4.** Plot SSD against **k** and look for the "elbow" point.
+
+**Applications**: The Elbow Method helps in choosing the ideal k value automatically, which can improve segmentation accuracy.
+
+#### Optimal k Value Determination
+
+
+#### 4. Preprocessing and K-means Clustering with Grayscale Image
+Preprocesses image with resizing, blurring, and equalization before clustering.
+
+**Applications**: Tumor detection in medical images.
