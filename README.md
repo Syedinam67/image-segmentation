@@ -84,7 +84,7 @@ Similar to the previous method but segments the image into 2 clusters.
 #### 3. Elbow Method for Optimal k
 The Elbow Method is used to determine the optimal number of clusters (k) for segmentation.
 
-
+![image](https://github.com/Syedinam67/image-segmentation/blob/6241dc49b37c4e43be214b54b6072166d47a1378/elbow_method.png)
 
 #### Process:
 
@@ -102,7 +102,7 @@ The Elbow Method is used to determine the optimal number of clusters (k) for seg
 **Applications**: The Elbow Method helps in choosing the ideal k value automatically, which can improve segmentation accuracy.
 
 #### Optimal k Value Determination
-
+![image]
 
 #### 4. Preprocessing and K-means Clustering with Grayscale Image
 Preprocesses image with resizing, blurring, and equalization before clustering.
