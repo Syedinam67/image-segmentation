@@ -66,6 +66,7 @@ Image Compression: Simplify images by segmenting into regions and reducing data.
 Performs image segmentation with 3 clusters.
 
 #### Segmentation for k = 3
+![image](https://github.com/Syedinam67/image-segmentation/blob/a65a452924fb1abf128806fb96fb409d1b452e45/for%20k%3D3.png)
 
 
 **~ Process**: Reads and reshapes the image, applies K-means clustering.
