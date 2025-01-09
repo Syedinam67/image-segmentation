@@ -49,7 +49,7 @@ Identifies and segments distinct objects within the same category.
 
 **Applications**: Tumor detection, robotics, autonomous vehicles.
 
-
+![image](https://github.com/Syedinam67/image-segmentation/blob/358eb2870d111f8bd802b260c8b954f54ec6022e/semg1.jpg)
 
 
 ### 5. Use of Image Segmentation in Image Processing
