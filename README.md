@@ -108,3 +108,10 @@ The Elbow Method is used to determine the optimal number of clusters (k) for seg
 Preprocesses image with resizing, blurring, and equalization before clustering.
 
 **Applications**: Tumor detection in medical images.
+
+### 8. Practical Applications of Image Segmentation by Clustering
+Medical Imaging: Tumor detection, organ segmentation in MRI/CT scans.
+Autonomous Driving: Road segmentation, object detection.
+Satellite Image Analysis: Land use classification and vegetation analysis.
+Content-based Image Retrieval: Improved image search accuracy by segmenting images.
+under guidance of Dr Agughasi Victor Ikechukwu (https://github.com/Victor-Ikechukwu)
