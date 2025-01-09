@@ -49,7 +49,8 @@ Identifies and segments distinct objects within the same category.
 
 **Applications**: Tumor detection, robotics, autonomous vehicles.
 
-![Alt text for the image](relative/path/to/semg1.jpg)
+![Sample Image](https://github.com/username/repository-name/blob/main/path/to/semg1.jpg)
+
 
 ### 5. Use of Image Segmentation in Image Processing
 Image segmentation enhances image analysis by isolating regions of interest, helping with tasks like object detection, feature enhancement, and image compression.
